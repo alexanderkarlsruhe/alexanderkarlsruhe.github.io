@@ -1,0 +1,47 @@
+body{
+	text-align: center;
+}
+
+.porto{
+	text-align: center;
+	align-content: center;
+	color: blue;
+}
+
+.line{
+	align-items: center;
+	border-bottom: 4px solid blue;
+	display: inline-block;
+	width: 100px;
+}
+
+.flex-container{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.img{
+	margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 1105px){
+	.img2, .img3, .img5, .img6{
+		margin-left: 20px !important;
+	}
+}
+
+@media only screen and (min-width: 740px){
+	.img2, .img4, .img6{
+		margin-left: 20px !important;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	.img1{
+		margin-left: 20px !important;
+	}
+}
